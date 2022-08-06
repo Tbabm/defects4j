@@ -270,6 +270,7 @@ project-specific build file ("project_id"/"project_id".build.xml) for the
                     <!-- Add dependencies to runtime libraries of test generation tools -->
                     <path refid="d4j.lib.testgen.rt"/>
                </classpath>
+               <compilerarg line="-Xmaxerrs 1000"/>
         </javac>
     </target>
 
